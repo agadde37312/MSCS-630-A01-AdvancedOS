@@ -95,7 +95,7 @@ def main():
     final_result = consolidate_frequencies(thread_results)
 
     # Print the final word frequency result
-    print("\n✅ Final Consolidated Word Frequencies:\n")
+    print("\n Final Consolidated Word Frequencies:\n")
     for word, count in final_result.most_common():
         print(f"{word}: {count}")
 
@@ -103,4 +103,3 @@ def main():
 # Entry point of the script
 if __name__ == "__main__":
     main()
-
